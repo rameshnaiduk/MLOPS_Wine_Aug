@@ -23,5 +23,5 @@ jobs:
           python train.py
           
           # Post reports as comments in GitHub PRs
-          cat results.txt >> report.md
+          cat metrics.txt >> report.md
           cml-send-comment report.md
